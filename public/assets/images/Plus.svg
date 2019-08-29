@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.1 (72631) - https://sketchapp.com -->
+    <title>CD4ADFC0-A547-4CAF-8491-16C0FDBDBAC4</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="30" height="30"></rect>
+    </defs>
+    <g id="📱-Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Candidate-Profile-[First-Version]" transform="translate(-1183.000000, -2065.000000)">
+            <g id="Resume" transform="translate(343.000000, 1500.000000)">
+                <g id="Plus" transform="translate(840.000000, 565.000000)">
+                    <rect id="Button-Background" fill="#D9F8FF" fill-rule="nonzero" x="0" y="0" width="50" height="50" rx="25"></rect>
+                    <g id="icon-/-minus" transform="translate(10.000000, 10.000000)">
+                        <g id="icon-/-plus">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Rectangle" fill="#3C4D53" fill-rule="nonzero" opacity="0" xlink:href="#path-1"></use>
+                            <path d="M20.2928932,8.29289322 C20.6834175,7.90236893 21.3165825,7.90236893 21.7071068,8.29289322 C22.0976311,8.68341751 22.0976311,9.31658249 21.7071068,9.70710678 L9.70710678,21.7071068 C9.31658249,22.0976311 8.68341751,22.0976311 8.29289322,21.7071068 C7.90236893,21.3165825 7.90236893,20.6834175 8.29289322,20.2928932 L20.2928932,8.29289322 Z" id="Path" fill="#23B1D3" fill-rule="nonzero" mask="url(#mask-2)" transform="translate(15.000000, 15.000000) rotate(-315.000000) translate(-15.000000, -15.000000) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

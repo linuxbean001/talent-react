@@ -1,0 +1,108 @@
+$ipad-landscape: 1200px;
+$ipad-portrait: 991px;
+$mobile-landscape: 767px;
+$mobile-portrait: 520px;
+
+@media screen and (max-width: $ipad-landscape) {
+    .login .login_right_content {
+        padding: 50px 40px;
+    }  
+    .main_profile .profile_content .profile_left_panel {
+        width: 25%;
+    }  
+    .main_profile .profile_content .profile_right_panel {
+        width: 75%;
+    }
+    .main_profile .profile_content .profile_left_panel .available_times .today_available_box {
+        padding: 12px 10px;
+    }
+}
+
+@media screen and (max-width: $ipad-portrait) {
+    .login {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .height100 {
+        height: auto;
+        min-height: 1px;
+    }
+    .login .login_left_content {
+        padding: 50px 80px 300px 50px;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .login .login_right_content .login_logo {
+        position: relative;
+        top: 0;
+        margin-bottom: 50px;
+    }
+    .model_popup .modal-dialog .modal-content .modal-body .phone_img {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .model_popup .modal-dialog .modal-content .modal-body {
+        padding: 50px;
+    }
+    .main_profile .profile_content .profile_left_panel {
+        width: 35%;
+    }
+    .main_profile .profile_content .profile_right_panel {
+        width: 65%;
+    }
+    .main_profile .profile_content .profile_right_panel .profile_grid .profle_inner_grid .zoom_div {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: $mobile-landscape) {
+    .main_profile .profile_content .profile_left_panel {
+        background: #fff;
+        width: 100%;
+        display: block;
+
+    }
+    .main_profile .profile_content .profile_right_panel {
+        width: 100%;
+        display: block;
+       padding: 25px 20px;
+    }
+    .model_popup .modal-dialog .modal-content .modal-body {
+        padding: 44px 15px;
+    }
+    .list-inline>li {
+        padding-bottom: 10px;
+    }
+    .login .login_left_content {
+        padding: 50px 40px 250px 50px;
+    }
+    .model_popup {
+        padding: 0 !important;
+    }
+    
+}
+
+@media screen and (max-width: $mobile-portrait) {
+    .login .login_left_content .login_app_icon li img {
+        max-width: 115px;
+    }
+    .login .login_left_content .h_work_login .h_works_grid .h_work_cont p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .login .login_left_content {
+        padding: 50px 30px 200px 30px;
+        margin: 0;
+    }
+    .login .login_right_content {
+        padding: 50px 30px;
+    }
+    .model_popup .modal-dialog .modal-content .modal-body .profile_popup_content .popup_send_form input {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 12px;
+    }
+    .model_popup .modal-dialog .modal-content .modal-body .profile_popup_content .popup_send_form .send_btn {
+        width: 100%;
+    }
+}

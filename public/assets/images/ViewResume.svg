@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="18px" viewBox="0 0 16 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.1 (72631) - https://sketchapp.com -->
+    <title>B1D28628-B9F6-4438-99EA-E1EAD4B06570</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="24" height="24"></rect>
+    </defs>
+    <g id="📱-Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Candidate-Profile-[First-Version]" transform="translate(-34.000000, -256.000000)">
+            <g id="Left">
+                <g id="Buttons" transform="translate(0.000000, 121.000000)">
+                    <g id="View-Resume" transform="translate(30.000000, 132.000000)">
+                        <g id="icon-/-resume">
+                            <g id="icon-/-plus">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="Rectangle" fill="#3C4D53" fill-rule="nonzero" opacity="0" xlink:href="#path-1"></use>
+                                <path d="M14.4,5.93137085 L14.4,8 L16.4686292,8 L14.4,5.93137085 Z M17.6,9.6 L13.6,9.6 C13.1581722,9.6 12.8,9.2418278 12.8,8.8 L12.8,4.8 L7.2,4.8 C6.7581722,4.8 6.4,5.1581722 6.4,5.6 L6.4,18.4 C6.4,18.8418278 6.7581722,19.2 7.2,19.2 L16.8,19.2 C17.2418278,19.2 17.6,18.8418278 17.6,18.4 L17.6,9.6 Z M13.6,3.2 C13.8121732,3.2 14.0156563,3.28428547 14.1656854,3.43431458 L18.9656854,8.23431458 C19.1157145,8.38434368 19.2,8.58782681 19.2,8.8 L19.2,18.4 C19.2,19.7254834 18.1254834,20.8 16.8,20.8 L7.2,20.8 C5.8745166,20.8 4.8,19.7254834 4.8,18.4 L4.8,5.6 C4.8,4.2745166 5.8745166,3.2 7.2,3.2 L13.6,3.2 Z M15.2,12 C15.6418278,12 16,12.3581722 16,12.8 C16,13.2418278 15.6418278,13.6 15.2,13.6 L8.8,13.6 C8.3581722,13.6 8,13.2418278 8,12.8 C8,12.3581722 8.3581722,12 8.8,12 L15.2,12 Z M15.2,15.2 C15.6418278,15.2 16,15.5581722 16,16 C16,16.4418278 15.6418278,16.8 15.2,16.8 L8.8,16.8 C8.3581722,16.8 8,16.4418278 8,16 C8,15.5581722 8.3581722,15.2 8.8,15.2 L15.2,15.2 Z M10.4,8.8 C10.8418278,8.8 11.2,9.1581722 11.2,9.6 C11.2,10.0418278 10.8418278,10.4 10.4,10.4 L8.8,10.4 C8.3581722,10.4 8,10.0418278 8,9.6 C8,9.1581722 8.3581722,8.8 8.8,8.8 L10.4,8.8 Z" id="Combined-Shape" fill="#23B1D3" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

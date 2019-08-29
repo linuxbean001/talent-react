@@ -1,0 +1,569 @@
+$color-blue: #23B1D3;
+$color-blue2: #275ae6;
+$color-blue3: #0139BA;
+$color-blue4: #D9F8FF;
+$color-white: #EEEEEE;
+$color-white2: #fff;
+$color-white3: #FFFFFF;
+$color-white4: #DCDCDC;
+$color-white5: #eee;
+$color-white6: #f9f9f9;
+$color-white7: #aaa;
+$color-gray:#252525;
+$color-gray2:#aaaaaa;
+$color-gray3:#454545;
+$color-black:rgba(0, 0, 0, 0.1);
+$color-black2:#000;
+$color-green:rgba(0, 209, 87, 0.1);
+$color-green2:#00D157;
+$font-1:'Circular Std Medium';
+$font-2:'Circular Std Bold';
+/**************** Sign In css / Sign up css ************************/
+.login {
+  position: relative;
+  background: $color-white2;
+  .login_left_content {
+    padding: 30px 80px 300px 50px;
+    position: relative;
+    background-size: contain;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    &:before {
+      content: "";
+      position: absolute;
+      background: $color-blue2;
+      height: 100%;
+      width: 999px;
+      right: 99%;
+      top: 0;
+    }
+    .h_work_login .h_works_grid {
+      .h_work_cont {
+        width: 79%;
+        display: inline-block;
+        vertical-align: middle;
+      }
+      width: 100%;
+      margin-bottom: 25px;
+      .h_work_img {
+        width: 15%;
+        padding: 0;
+        display: inline-block;
+        margin-right: 5%;
+      }
+      .h_work_cont p {
+        margin-bottom: 0;
+        font-size: 18px;
+        color: $color-white2;
+        line-height: 24px;
+      }
+    }
+    h2 {
+      font-size: 32px;
+      color: $color-white2;
+      line-height: 41px;
+      margin-bottom: 20px;
+    }
+    .login_app_icon li img {
+      max-width: 170px;
+    }
+    h4 {
+      font-size: 14px;
+      margin-bottom: 5px;
+      color: $color-white2;
+      font-family: $font-1;
+      line-height: 18px;
+    }
+  }
+  .login_right_content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px 70px;
+    position: relative;
+    form.login_form {
+      width: 100%;
+    }
+    .login_logo {
+      position: absolute;
+      top: 22px;
+    }
+    form.login_form {
+      h2 {
+        color: $color-gray;
+        letter-spacing: -1px;
+        font-size: 32px;
+        margin-bottom: 30px;
+      }
+      button.sign_btn {
+        border-radius: 5px;
+        background-color: $color-blue3;
+        color: $color-white2;
+        height: 50px;
+        font-size: 16px;
+        line-height: 20px;
+        font-family: $font-1;
+      }
+      .or_title {
+        p {
+          margin-bottom: 0;
+          display: inline-block;
+          color: $color-gray;
+          font-size: 14px;
+          font-family: $font-1;
+          padding: 0px 25px;
+          background: $color-white2;
+          z-index: 9;
+          position: relative;
+        }
+        position: relative;
+        text-align: center;
+        &:before {
+          content: "";
+          position: absolute;
+          height: 1px;
+          width: 100%;
+          background-color: $color-white4;
+          left: 0;
+          right: 0;
+          top: 50%;
+          transform: translateY(-50%);
+          -webkit-transform: translateY(-50%);
+        }
+      }
+      a.sign_google {
+        border-radius: 5px;
+        background-color: $color-blue4;
+        display: block;
+        text-align: center;
+        height: 50px;
+        line-height: 50px;
+        color: $color-blue;
+        font-size: 16px;
+        font-family: $font-1;
+        text-decoration: none;
+      }
+      span.dont_account {
+        text-align: center;
+        display: block;
+        a {
+          color: $color-blue;
+          font-family: $font-1;
+        }
+      }
+    }
+  }
+}
+
+/***************** talents css ******************/
+.talents {
+  .talents_header {
+    border: 1px solid $color-white;
+    background-color: $color-white3;
+    position: relative;
+    padding: 15px 0px;
+    h2 {
+      color: $color-gray;
+      font-size: 20px;
+      line-height: 25px;
+      margin: 7px 0px;
+    }
+    .logout_btn {
+      background-color: $color-blue4;
+      border-radius: 5px;
+      padding: 10px 30px;
+      color: $color-blue;
+      font-size: 16px;
+      font-family: $font-1;
+      border: none;
+    }
+  }
+  .talents_content_data {
+    position: relative;
+    padding: 30px 0px;
+    .talents_table {
+      border: 1px solid $color-white;
+      border-radius: 5px 5px 0 0;
+      background-color: $color-white3;
+      .table-responsive .table {
+        > thead > tr > th {
+          vertical-align: bottom;
+          border-bottom: 1px solid $color-white5;
+          color: $color-gray2;
+          text-transform: uppercase;
+          font-size: 12px;
+          padding: 15px;
+          font-family: $font-1;
+          font-weight: normal;
+        }
+        tbody tr {
+          font-size: 14px;
+          color: $color-gray3;
+          cursor: pointer;
+          td.right_arrow_img img {
+            max-width: 8px;
+          }
+          &:nth-child(even) {
+            background: $color-white6;
+          }
+        }
+        > {
+          tbody > tr > {
+            td, th {
+              vertical-align: middle;
+              border-bottom: 1px solid $color-white5;
+              padding: 15px;
+            }
+          }
+          tfoot > tr > {
+            td, th {
+              vertical-align: middle;
+              border-bottom: 1px solid $color-white5;
+              padding: 15px;
+            }
+          }
+          thead > tr > td {
+            vertical-align: middle;
+            border-bottom: 1px solid $color-white5;
+            padding: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+/********* Profile css **************/
+.main_profile .profile_content {
+  .profile_left_panel {
+    box-shadow: 0 2px 4px 0 $color-black;
+    background: $color-white2;
+    width: 22%;
+    display: table-cell;
+    vertical-align: top;
+    .profile_detail {
+      padding: 30px;
+      border-bottom: 1px solid $color-white5;
+      h2 {
+        font-size: 24px;
+        color: $color-gray;
+        line-height: 30px;
+        margin-bottom: 0;
+      }
+      .lead_prof_txt {
+        color: $color-white7;
+        line-height: 15px;
+        font-size: 12px;
+        text-transform: uppercase;
+        margin-bottom: 0;
+      }
+    }
+    .highlight_prof {
+      position: relative;
+      padding: 30px;
+      border-bottom: 1px solid $color-white5;
+    }
+    .profile_detail {
+      ul.prof_uline {
+        border-top: 1px solid $color-white5;
+        margin-top: 20px;
+        padding-top: 20px;
+        li {
+          margin-bottom: 15px;
+          position: relative;
+          padding-left: 28px;
+          padding-right: 20px;
+          img {
+            position: absolute;
+            left: 0;
+          }
+          a {
+            color: $color-blue;
+            font-size: 14px;
+            font-family: $font-1;
+          }
+          &:before {
+            content: "\f105 ";
+            position: absolute;
+            right: 0;
+            font-family: fontAwesome;
+            color: $color-blue;
+            font-size: 18px;
+          }
+        }
+      }
+      .contact_prof_btn button {
+        border-radius: 5px;
+        background-color: $color-blue3;
+        color: $color-white2;
+        width: 100%;
+        height: 50px;
+        font-size: 16px;
+        line-height: 20px;
+        &:hover, &:focus {
+          color: $color-white2;
+          outline: none;
+        }
+      }
+    }
+    .highlight_prof {
+      h3 {
+        color: $color-white7;
+        font-size: 12px;
+        text-transform: uppercase;
+        line-height: 18px;
+        font-family: $font-1;
+      }
+      ul.heihlight_uline li {
+        strong {
+          font-weight: normal;
+          font-size: 14px;
+          color: $color-gray;
+          line-height: 18px;
+          font-family: $font-1;
+        }
+        p {
+          margin-bottom: 0;
+          color: $color-gray3;
+          font-size: 14px;
+          line-height: 18px;
+        }
+        margin-bottom: 10px;
+        &:last-child {
+          margin-bottom: 0px;
+        }
+      }
+    }
+    .available_times {
+      position: relative;
+      padding: 30px;
+      ul {
+        &.heihlight_uline li:last-child {
+          margin-bottom: 0;
+        }
+        &.avail_uline li {
+          p {
+            margin-bottom: 0;
+            color: $color-gray3;
+            font-size: 14px;
+            line-height: 18px;
+            text-align: right;
+          }
+          strong {
+            font-weight: normal;
+            font-size: 14px;
+            color: $color-gray;
+            line-height: 18px;
+            font-family: $font-1;
+          }
+          border-bottom: 1px solid $color-white5;
+          padding-bottom: 10px;
+          margin-bottom: 10px;
+          &:last-child {
+            border-bottom: none;
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+          }
+        }
+      }
+      h3 {
+        color: $color-white7;
+        font-size: 12px;
+        text-transform: uppercase;
+        line-height: 18px;
+        font-family: $font-1;
+      }
+      .today_available_box {
+        background-color: $color-green;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        position: relative;
+        padding: 12px 25px;
+        img {
+          margin-right: 10px;
+          display: inline-block;
+          vertical-align: middle;
+        }
+        span {
+          color: $color-green2;
+          font-size: 14px;
+          line-height: 18px;
+          display: inline-block;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+  display: table;
+  width: 100%;
+  .profile_right_panel {
+    width: 78%;
+    display: table-cell;
+    vertical-align: top;
+    padding: 30px 43px;
+    .profile_grid {
+      .profle_inner_grid {
+        border: 1px solid $color-white;
+        border-radius: 5px;
+        background-color: $color-white3;
+        padding: 30px;
+      }
+      h2 {
+        color: $color-gray;
+        margin-bottom: 20px;
+        font-size: 20px;
+        line-height: 25px;
+      }
+      .profle_inner_grid {
+        .prof_right_cont {
+          h3 {
+            color: $color-white7;
+            text-transform: uppercase;
+            font-size: 12px;
+            font-family: $font-1;
+            margin-bottom: 0;
+            line-height: 22px;
+          }
+          p {
+            margin-bottom: 0;
+            color: $color-gray3;
+            font-size: 16px;
+            line-height: 24px;
+          }
+          margin-bottom: 18px;
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+        .profile_inner_title h4 {
+          color: $color-gray;
+          font-size: 18px;
+          line-height: 23px;
+          margin-bottom: 20px;
+        }
+      }
+      &.note_recruiters .prof_right_cont p {
+        margin-bottom: 20px;
+        &:last-child {
+          margin-bottom: 0px;
+        }
+      }
+      .profle_inner_grid {
+        .prof_resume img {
+          width: 100%;
+          box-shadow: 0 0 20px 0 $color-black;
+        }
+        .zoom_div {
+          text-align: right;
+          margin-top: -50px;
+        }
+      }
+    }
+  }
+}
+
+.model_popup .modal-dialog {
+  width: 100%;
+  margin: 30px auto;
+  max-width: 950px;
+  padding: 0px 15px;
+  -webkit-transform: translate(0, 0%) !important;
+  -ms-transform: translate(0, 0%) !important;
+  -o-transform: translate(0, 0%) !important;
+  transform: translate(0, 0%) !important;
+  .modal-content {
+    .modal-body {
+      position: relative;
+      padding: 50px 50px 0px;
+    }
+    box-shadow: 0 2px 4px 0 $color-black;
+    -webkit-box-shadow: 0 2px 4px 0 $color-black;
+    background: $color-white2;
+    border-radius: 5px;
+    .close {
+      text-shadow: none;
+      opacity: 1;
+      position: absolute;
+      right: 15px;
+      top: 15px;
+      z-index: 9;
+      &:focus {
+        outline: none;
+      }
+    }
+    .modal-body .profile_popup_content {
+      margin-top: 25px;
+      position: relative;
+      h2 {
+        font-size: 28px;
+        line-height: 36px;
+        color: $color-gray;
+        font-family: $font-2;
+      }
+      p.lead_pop_txt {
+        color: $color-gray3;
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+  }
+}
+
+.modal-backdrop.in {
+  filter: alpha(opacity = 50);
+  opacity: .8;
+}
+
+.model_popup .modal-dialog .modal-content .modal-body .profile_popup_content {
+  .popup_send_form {
+    input {
+      width: 73%;
+      float: left;
+      margin-right: 2%;
+    }
+    .send_btn {
+      width: 25%;
+      height: 50px;
+      border-radius: 5px;
+      background-color: $color-blue3;
+      color: $color-white2;
+    }
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  .download_buttons {
+    p {
+      color: $color-white7;
+      font-size: 12px;
+      line-height: 15px;
+      font-family: $font-1;
+    }
+    margin-bottom: 30px;
+  }
+  .visit_link {
+    color: $color-blue;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: $font-1;
+  }
+}
+
+.modal-open .model_popup {
+  display: flex !important;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.model_popup {
+  opacity: 1;
+  display: flex !important;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.modal-backdrop.fade {
+  filter: alpha(opacity=0);
+  opacity: 0.8;
+}

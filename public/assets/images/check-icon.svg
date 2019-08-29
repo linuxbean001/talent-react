@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.1 (72631) - https://sketchapp.com -->
+    <title>FCF2E890-35E7-45C2-8621-8C4035C0AFB4</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="18" height="18"></rect>
+    </defs>
+    <g id="📱-Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Candidate-Profile-[First-Version]" transform="translate(-50.000000, -608.000000)">
+            <g id="Left">
+                <g id="Available-Times" transform="translate(30.000000, 568.000000)">
+                    <g id="Items" transform="translate(0.000000, 25.000000)">
+                        <g id="Button-/-Loading-/-Succes" transform="translate(20.000000, 15.000000)">
+                            <circle id="Oval" stroke="#00D157" stroke-width="2" fill-rule="nonzero" cx="15" cy="15" r="14"></circle>
+                            <g id="icon-/-Check" transform="translate(6.000000, 6.000000)" fill-rule="evenodd" stroke-width="1">
+                                <g>
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <use id="Rectangle" fill="#3C4D53" fill-rule="nonzero" opacity="0" xlink:href="#path-1"></use>
+                                    <path d="M13.3757359,4.97573593 C13.6100505,4.74142136 13.9899495,4.74142136 14.2242641,4.97573593 C14.4585786,5.21005051 14.4585786,5.58994949 14.2242641,5.82426407 L7.62426407,12.4242641 C7.38994949,12.6585786 7.01005051,12.6585786 6.77573593,12.4242641 L3.77573593,9.42426407 C3.54142136,9.18994949 3.54142136,8.81005051 3.77573593,8.57573593 C4.01005051,8.34142136 4.38994949,8.34142136 4.62426407,8.57573593 L7.2,11.1514719 L13.3757359,4.97573593 Z" id="Mask" fill="#00D157" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

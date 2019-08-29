@@ -1,0 +1,80 @@
+body{
+    font-size:14px;
+    line-height:20px;
+    outline: none;
+    font-family: 'Circular Std Book';
+    background: #f4f7fc;
+  }
+  $color-blue: #23B1D3;
+  $color-red: #f44f4f;
+  $color-white: #EEEEEE;
+  .CircularProgressbar {
+    width: 22% !important;
+    display: inline-block !important;
+      vertical-align: middle !important;
+  }
+  .CircularProgressbar .CircularProgressbar-path {
+    stroke: $color-blue !important;
+  }
+  .CircularProgressbar .CircularProgressbar-text {
+    fill: #252525 !important;
+    font-size: 30px !important;
+  }
+  
+  h1, h2, h3, h4, h5, h6{
+    line-height:24px;
+    margin-top:0;
+  }
+  img{
+    max-width:100%;
+  }
+  
+  ul{
+    list-style:none;
+    padding-left:0;
+    margin-bottom: 0;
+  }
+  .mt-30{
+    margin-top: 30px;
+  }
+  .mb-30{
+    margin-bottom: 30px;
+  }
+  .mt-20{
+    margin-top: 20px;
+  }
+  .mb-20{
+    margin-bottom: 20px;
+  }
+  .mt-10{
+    margin-top: 10px;
+  }
+  .mb-10{
+    margin-bottom: 10px;
+  }
+  .red_text{
+    color: $color-red;
+  }
+  
+  input.form-control {
+    border: 1px solid $color-white;
+    border-radius: 5px;
+    background-color: #F9F9F9;
+    height: 50px;
+    box-shadow: none;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  input.form-control:focus {
+    box-shadow: none;
+    color: #0139ba;
+    -webkit-box-shadow: none;
+  }
+  .height100 {
+    height: 900px;
+    min-height: 100vh;
+  }
+  .p-0{
+    padding: 0;
+  }

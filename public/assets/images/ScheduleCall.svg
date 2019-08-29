@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="18px" viewBox="0 0 16 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.1 (72631) - https://sketchapp.com -->
+    <title>BA73AEE0-C676-4218-BECE-E624EFA3C0A5</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="24" height="24"></rect>
+    </defs>
+    <g id="📱-Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Candidate-Profile-[First-Version]" transform="translate(-34.000000, -212.000000)">
+            <g id="Left">
+                <g id="Buttons" transform="translate(0.000000, 121.000000)">
+                    <g id="Schedule-Call" transform="translate(30.000000, 88.000000)">
+                        <g id="icon-/-calendar">
+                            <g id="icon-/-plus">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="Rectangle" fill="#3C4D53" fill-rule="nonzero" opacity="0" xlink:href="#path-1"></use>
+                                <g id="calendar" mask="url(#mask-2)" fill="#23B1D3" fill-rule="nonzero">
+                                    <g transform="translate(4.800000, 4.000000)" id="Combined-Shape">
+                                        <path d="M0.8,5.6 L13.6,5.6 L13.6,3.2 C13.6,2.7581722 13.2418278,2.4 12.8,2.4 L11.2,2.4 L11.2,3.2 C11.2,3.6418278 10.8418278,4 10.4,4 C9.9581722,4 9.6,3.6418278 9.6,3.2 L9.6,2.4 L4.8,2.4 L4.8,3.2 C4.8,3.6418278 4.4418278,4 4,4 C3.5581722,4 3.2,3.6418278 3.2,3.2 L3.2,2.4 L1.6,2.4 C1.1581722,2.4 0.8,2.7581722 0.8,3.2 L0.8,5.6 Z M0.8,7.2 L0.8,14.4 C0.8,14.8418278 1.1581722,15.2 1.6,15.2 L12.8,15.2 C13.2418278,15.2 13.6,14.8418278 13.6,14.4 L13.6,7.2 L0.8,7.2 Z M4.8,0.8 L9.6,0.8 L9.6,0 C9.6,-0.4418278 9.9581722,-0.8 10.4,-0.8 C10.8418278,-0.8 11.2,-0.4418278 11.2,0 L11.2,0.8 L12.8,0.8 C14.1254834,0.8 15.2,1.8745166 15.2,3.2 L15.2,14.4 C15.2,15.7254834 14.1254834,16.8 12.8,16.8 L1.6,16.8 C0.2745166,16.8 -0.8,15.7254834 -0.8,14.4 L-0.8,3.2 C-0.8,1.8745166 0.2745166,0.8 1.6,0.8 L3.2,0.8 L3.2,0 C3.2,-0.4418278 3.5581722,-0.8 4,-0.8 C4.4418278,-0.8 4.8,-0.4418278 4.8,0 L4.8,0.8 Z"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
