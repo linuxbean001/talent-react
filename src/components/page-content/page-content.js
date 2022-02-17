@@ -13,7 +13,7 @@ class PageContent extends Component {
                         <div className="h_work_login">
                             <div className="h_works_grid">
                                 <div className="h_work_img">
-                                    <img src="assets/images/how_it_works1.svg" />
+                                    <img src="assets/images/how_it_works1.svg" alt=""/>
                                 </div>
                                 <div className="h_work_cont">
                                     <p>Join us</p>
@@ -21,7 +21,7 @@ class PageContent extends Component {
                             </div>
                             <div className="h_works_grid">
                                 <div className="h_work_img">
-                                    <img src="assets/images/how_it_works2.svg" />
+                                    <img src="assets/images/how_it_works2.svg" alt=""/>
                                 </div>
                                 <div className="h_work_cont">
                                     <p>Bring your own talent pool or let us match your posts with the best ones</p>
@@ -29,7 +29,7 @@ class PageContent extends Component {
                             </div>
                             <div className="h_works_grid">
                                 <div className="h_work_img">
-                                    <img src="assets/images/how_it_works3.svg" />
+                                    <img src="assets/images/how_it_works3.svg" alt=""/>
                                 </div>
                                 <div className="h_work_cont">
                                     <p>Get in touch with the talents with just a few clicks without cold calls or emails</p>
@@ -39,8 +39,8 @@ class PageContent extends Component {
 
                         <h4>Download Our Mobile App</h4>
                         <ul className="list-inline login_app_icon">
-                            <li><img src="assets/images/App-Store-wh.png" /></li>
-                            <li><img src="assets/images/Google-Play-wh.png" /></li>
+                            <li><img src="assets/images/App-Store-wh.png" alt=""/></li>
+                            <li><img src="assets/images/Google-Play-wh.png" alt=""/></li>
                         </ul>
                     </div>
                 </div>

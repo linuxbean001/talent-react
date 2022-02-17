@@ -17,7 +17,7 @@ class Register extends Component {
 							<div className="col-md-5 height100">
 								<div className="login_right_content height100">
 									<div className="login_logo">
-										<a href="#"><img src="assets/images/Logo-login.svg" /></a>
+										<Link to="#"><img src="assets/images/Logo-login.svg" alt=""/></Link>
 									</div>
 									<form className="login_form" action="#">
 										<h2>Sign Up</h2>
@@ -40,7 +40,7 @@ class Register extends Component {
 											<p>OR</p>
 										</div>
 										<div className="form-group">
-											<a href="#" className="sign_google">Sign up with Google</a>
+											<Link to="#" className="sign_google">Sign up with Google</Link>
 										</div>
 										<span className="dont_account"><Link to={'/login'}>I have an account. Sign in</Link></span>
 									</form>

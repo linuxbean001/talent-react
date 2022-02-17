@@ -16,7 +16,7 @@ class Login extends Component {
 							<div className="col-md-5 height100">
 								<div className="login_right_content height100">
 									<div className="login_logo">
-										<a href="#"><img src="assets/images/Logo-login.svg" /></a>
+										<Link to="#"><img src="assets/images/Logo-login.svg" alt=""/></Link>
 									</div>
 									<form className="login_form" action="#">
 										<h2>Sign In</h2>
@@ -33,7 +33,7 @@ class Login extends Component {
 											<p>OR</p>
 										</div>
 										<div className="form-group">
-											<a href="#" className="sign_google">Sign in with Google</a>
+											<Link to="#" className="sign_google">Sign in with Google</Link>
 										</div>
 										<span className="dont_account"><Link to={'/register'}>Don’t have an account yet? Sign up now</Link></span>
 									</form>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import CircularProgressbar from 'react-circular-progressbar';
-
+import { Link } from 'react-router-dom';
 import 'react-circular-progressbar/dist/styles.css';
 const percentage1 = 66;
 const percentage2 = 90;
@@ -8,11 +8,9 @@ class Profile extends Component {
 	
 	render() {
 		return (
-
 			<div className="profile_right_panel">
 				<div className="profile_grid mb-30">
 					<h2>Criteria</h2>
-				
 					<div className="profle_inner_grid">
 						<div className="row">
 							<div className="col-md-4">
@@ -216,14 +214,14 @@ class Profile extends Component {
 						<div className="row">
 							<div className="col-md-6 col-md-offset-3">
 								<div className="prof_resume">
-									<img src="assets/images/resume.png" />
+									<img src="assets/images/resume.png" alt=""/>
 								</div>
 							</div>
 						</div>
 						<div className="zoom_div">
 							<ul className="list-inline">
-								<li><a href="#"><img src="assets/images/minus-icon.png" /></a></li>
-								<li><a href="#"><img src="assets/images/plus-icon.png" /></a></li>
+								<li><Link to="#"><img src="assets/images/minus-icon.png" alt=""/></Link></li>
+								<li><Link to="#"><img src="assets/images/plus-icon.png" alt=""/></Link></li>
 							</ul>
 						</div>
 					</div>
